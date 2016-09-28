@@ -42,35 +42,10 @@ Your browser does not support the audio element.
 
 <br>
 Now, was that so hard? You still have yet to truly impress me. 
+What place is mentioned on this website?
+<a href="WEB16.html">Shafter</a><br>
+<a href="WEB6.html">Africa</a><br>
 
-
-<SCRIPT>
-function passWord(shafter) {
-var testV = 1;
-var pass1 = prompt('Please Enter Your Password. Note Passwords are only in lowercase and no spaces. The password is on the website.',' ');
-while (testV < 3) {
-if (!pass1) 
-history.go(-1);
-if (pass1.toLowerCase() == "shafter") {
-alert('You Got it Right!');
-window.open('Web16.html');
-break;
-} 
-testV+=1;
-var pass1 = 
-prompt('Access Denied - Password Incorrect, unless you believe you are right.','Password');
-}
-if (pass1.toLowerCase()!="shafter" & testV ==3) 
-history.go(-1);
-return " ";
-} 
-</SCRIPT>
-<CENTER>
-<FORM>
-<input type="button" value="Enter Protected Area" onClick="passWord()">
-</FORM>
-</CENTER>
-<br>
 
 <br>
 
